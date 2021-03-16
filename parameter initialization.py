@@ -1,14 +1,6 @@
 
 def initialize_parameters():
-    """
-    Initializes weight parameters to build a neural network with tensorflow. The shapes are:
-                        W1 : [4, 4, 3, 8]
-                        W2 : [2, 2, 8, 16]
-    Note that we will hard code the shape values in the function to make the grading simpler.
-    Normally, functions should take values as inputs rather than hard coding.
-    Returns:
-    parameters -- a dictionary of tensors containing W1, W2
-    """
+   
     
     tf.set_random_seed(1)                              # so that your "random" numbers match ours
         
